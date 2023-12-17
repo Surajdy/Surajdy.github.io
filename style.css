@@ -635,6 +635,9 @@ form textarea {
         gap: 1.5rem;
        
     }
+     .layer p{
+      font-size: 5px;
+    }
 
     .github-content {
         grid-template-columns: repeat(auto-fit, minmax(250px, auto));
