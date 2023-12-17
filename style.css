@@ -647,7 +647,7 @@ form textarea {
 
     .contact {
         grid-template-columns: 1fr;
-        padding: 80px ;
+        padding: 50px ;
         text-align: center;
     }
 
