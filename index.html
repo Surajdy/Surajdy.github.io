@@ -1,196 +1,176 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Suraj Portfolio Website</title>
-	<!---custom css link---->
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <meta charset="UTF-8">
+  <title>Suraj Portfolio Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 	<link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
 <body>
-	<!------Header Section------>
-	<header>
-		<a href="#" class="logo">Port<span>foli</span>o..</a>
-		
-		<ul class="navlist">
-			<li><a href="#home" class="active">Home</a></li>
-			<li><a href="#about">About Me</a></li>
-			<li><a href="#services">Services</a></li>
-			<li><a href="#portfolio">Projects</a></li>
-			<li><a href="#contact">Contact</a></li>
-			<li><a href="#github">Github Stats</a></li>
-			<li><a href="Suraj Dilip Yengalwar-Surajyengalwar-Frontend Developer(React).pdf">Resume</a></li>
-		</ul>
-		
-		<div class="bx bx-menu" id="menu-icon">
-				
-			 </div>
-		
-	</header>
 
-	<!---------Home Section--------------->
-	<section class="home" id="home">
-		<div class="home-text">
-			<div class="slide">
-				<span class="one">Hello</span>
-				<span class="two">I'm</span>
-			</div>
-			<h1>Suraj Yengalwar</h1>
-			<h3>Full Stack <span>Web Developer.</span></h3>
-			<p>As a passionate and dedicated full-stack web developer, I thrive on transforming <br/> innovative ideas into functional, user-centric digital experiences. My journey into <br/>  the world of programming began with a relentless curiosity and a genuine eager-  <br/>ness to unravel the complexities of web development.</p>
-			<div class="button">
-				<a href="#about" class="btn">About Me</a>
-				<a href="Suraj Dilip Yengalwar-Surajyengalwar-Frontend Developer(React).pdf" class="btn">Resume</a>
-			</div>
-		</div>
-		<div class="home-text">
-			<img src="1702751502682.jpg" alt="">
-		</div>
-		
-	</section>
+  <!-- Navbar -->
+  <nav id="nav-menu">
+    <ul class ="navlist">
+      <li><a href="#" class="logo">Port<span>foli</span>o..</a></li>
+      <li><a href="#home" class="nav-link home">Home</a></li>
+      <li><a href="#about" class="nav-link about">About</a></li>
+      <li><a href="#skills" class="nav-link skills">Skills</a></li>
+      <li><a href="#projects" class="nav-link projects">Projects</a></li>
+      <li><a href="#contact" class="nav-link contact">Contact</a></li>
+      <li><a href="Suraj Dilip Yengalwar-Surajyengalwar-Frontend Developer(React).pdf" download id="resume-link-1" class="nav-link resume">Resume</a></li>
+    </ul>
+  </nav>
 
-	<!---------about Section --------------->
-	<section class="about" id="about">
-	
+  <!-- Home section -->
+  <section id="home" class="home">
+    <div class="home-text">
+        <h3>Hello <span>I,m</span></h3>
+        <h1>Suraj Yengalwar</h1>
+        <h3>Full Stack <span>Web Developer.</span></h3>
 
-		<div class="about-text">
-			<h2>About <span>Me</span></h2>
-			<h4>Full Stack Web Developer!</h4>
-			<p>I am a fervent advocate for the marriage of innovation and technology, driven by an unwavering passion for crafting immersive digital experiences. My journey as a full-stack web developer is defined by a relentless pursuit of excellence, where lines of code converge with boundless creativity to breathe life into visionary concepts.
+        <p>As a passionate and dedicated full-stack web developer, I thrive on transforming <br/> innovative ideas into functional, user-centric digital experiences. My journey into <br/>  the world of programming began with a relentless curiosity and a genuine eager-  <br/>ness to unravel the complexities of web development.</p>
+        <div class="button">
+            <a href="#about" class="btn">About Me</a>
+            <a href="Suraj Dilip Yengalwar-Surajyengalwar-Frontend Developer(React).pdf" class="btn" id="resume-link-2">Resume</a>
+        </div>
+    </div>
+    <div class="home-text">
+        <img src="1702751502682.jpg" alt="Professional Photo" class="home-img">
+    </div>
+    
+</section>
 
-				My fascination with web development isn't merely about lines of code; it's about orchestrating symphonies of pixels and logic to create intuitive, visually captivating, and seamlessly functional interfaces. Each project I undertake isn't just a task; it's a canvas awaiting the strokes of ingenuity and precision.
-				</p>
-				<a href="#home" class="btn">More About</a>
-		</div>
-	</section>
+  <!-- About section -->
+  <section id="about" class="about section">
+   <div class="about-text">
+    <h2>About <span>Me</span></h2>
+    <h4 id="user-detail-name">Full Stack Web Developer!</h4>
+    <p id="user-detail-intro">I am a fervent advocate for the marriage of innovation and technology, driven by an unwavering passion for crafting immersive digital experiences. My journey as a full-stack web developer is defined by a relentless pursuit of excellence, where lines of code converge with boundless creativity to breathe life into visionary concepts.
 
-	<!-----------Services Section-------------->
-	<section class="services" id="services">
-	<div class="main-text">
+        My fascination with web development isn't merely about lines of code; it's about orchestrating symphonies of pixels and logic to create intuitive, visually captivating, and seamlessly functional interfaces. Each project I undertake isn't just a task; it's a canvas awaiting the strokes of ingenuity and precision.
+        </p>
+    </div>
+    <!-- <p>GitHub calendar heatmap:</p> -->
+    <div class="react-activity-calendar">
+      <!-- Embed GitHub calendar here -->
+    </div>
+  </section>
+
+  <!-- Skills section -->
+  <section id="skills" class="skills">
+    <div class="main-text">
 		<h2><span>My</span>Skills</h2>
 		<br/>
 		<h1>Here are some of my skills on which I have been working on for the past 1 years.</h1>
 	</div>
+    
+    <div class="skills-card">
+        <div class="skills-card-icons">
+        <i class='bx bx-mobile-alt'></i>Front End
+        </div>
+        <div class="skills-card-name">
+            <a>React Js</a>
+            <a > HTML</a>
+            <a> CSS</a>
+            <a> Javascript</a>
+        </div>    
+    </div>
 
-	<div class="services-content">
-		<div class="box">
-			<div class="s-icons">
-				<i class='bx bx-mobile-alt'></i>Front End
-			</div>
-			
-			<div class="s-names">
-			<a>React Js</a>
-			<a > HTML</a>
-			<a> CSS</a>
-			<a> Javascript</a>
-		    </div>
-		</div>
+    <div class="skills-card">
+        <div class="skills-card-icons">
+            <i class='bx bx-code-alt'></i>Back End
+        </div>
+        
+        <div class="skills-card-name">
+            <a>Java</a>
+            <a >Node Js</a>
+            <a >NPM</a>
+            <a >JSON</a>
+            <a>Mango DB</a>
+        </div>
+    </div>
 
-		<div class="box">
-			<div class="s-icons">
-				<i class='bx bx-code-alt'></i>Back End
-			</div>
-			
-			<div class="s-names">
-			<a>Java</a>
-			<a >Node Js</a>
-			<a >NPM</a>
-			<a >JSON</a>
-			<a>Mango DB</a>
-			</div>
-		</div>
+    <div class="skills-card">
+        <div class="skills-card-icons">
+            <i class='bx bx-edit-alt'></i>Tools
+        </div>
+        <div  class="skills-card-name">
+            <a >VS Code</a>
+            <a>HackerRank</a>
+            <a >CodeSandBox</a>
+            <a>Replit</a>
+            <a >CodePen</a>
+            <a>GitHub</a>
+        </div>
+    </div>
+    <!-- Add more skills cards -->
+  </section>
 
-		<div class="box">
-			<div class="s-icons">
-				<i class='bx bx-edit-alt'></i>Tools
-			</div>
-			<div class="s-names">
-			<a >VS Code</a>
-			<a>HackerRank</a>
-			<a >CodeSandBox</a>
-			<a>Replit</a>
-			<a >CodePen</a>
-			<a>GitHub</a>
-			</div>
-		</div>
-	</div>
-
-</section>
-
-<!-----------Project Section--------------->
-<section class="portfolio" id="portfolio">
-	<div class="main-text">
+  <!-- Projects section -->
+  <section id="projects">
+    <div class="main-text">
 		<h2><span>Pro</span>ject</h2>
 	</div>
-	<div class="portfolio-content">
-		<div class="row">
-			<img src="project1.png" >
-			<div class="layer">
-				<h5>Bewakoof.com</h5>
-				<p>Our project endeavored to mirror Bewakoof's essence, crafting a dynamic clone website that encapsulated its trendy fashion, quirky designs, and seamless shopping experience.</p>
-				<a href="https://spectacular-gecko-caaf10.netlify.app/index.html"> <i class='bx bx-link-external'></i></a>
-			</div>
-		</div>
+    <div class="project-container"> 
+        <div class="project-card">
+            <img src="project1.png" alt="Project 1">
+                <div class="layer">
+                    <h5 class="project-title">Bewakoof.com</h5>
+                    <p class="project-description">Our project endeavored to mirror Bewakoof's essence, crafting a dynamic clone website that encapsulated its trendy fashion, quirky designs, and seamless shopping experience.</p>
+                    <h4 class="project-tech-stack">Tech stack used: HTML, CSS, JavaScript</h4>
+                    <div class="button">
+                        <a href="https://github.com/Surajdy/Wingscollaboration.git" class="project-github-link">GitHub Repository</a>
+                        <a href="https://spectacular-gecko-caaf10.netlify.app/index.html" class="project-deployed-link">Deployed Link</a>
+                    </div>
+                 
+                </div>
+        </div>  
+        <div class="project-card">
+            <img src="project2.png" alt="Project 1">
+                <div class="layer">
+                    <h5 class="project-title">Nykaa.com</h5>
+                    <p class="project-description">Emulating Nykaa's success, our project ambitiously aimed to replicate its diverse beauty and wellness e-commerce platform, offering a similar range of products and user-friendly shopping experience. </p>
+                    <h4 class="project-tech-stack">Tech stack used: HTML, CSS, JavaScript</h4>
+                    <div class="button">
+                    <a href="https://github.com/AjayJaishwal/festive-lake-9492.git" class="project-github-link">GitHub Repository</a>
+                    <a href="https://6535f5a834f656678606da1d--gleeful-elf-885b11.netlify.app/" class="project-deployed-link">Deployed Link</a>
+                    </div>   
+                </div>
+        </div>
+        <div class="project-card">
+            <img src="project3.png" alt="Project 1">
+                <div class="layer">
+                    <h5 class="project-title">Specialized.com</h5>
+                    <p class="project-description">Our collaborative project was an innovative venture focused on developing an efficient and user-friendly bike seller website. </p>
+                    <h4 class="project-tech-stack">Tech stack used: HTML, CSS, JavaScript</h4>
+                    <div class="button">
+                        <a href="https://github.com/Surajdy/busy-industry-7181.git"  class="project-github-link">GitHub Repository</a>
+                        <a href="https://busy-industry-7181.netlify.app/" class="project-deployed-link">Deployed Link</a>
+                        </div>
+                </div>
+        </div>    
+    </div>
+    
+    <!-- Add more project cards -->
+  </section>
 
-		<div class="row">
-			<img src="project2.png" >
-			<div class="layer">
-				<h5>Nykaa.com</h5>
-				<p>Emulating Nykaa's success, our project ambitiously aimed to replicate its diverse beauty and wellness e-commerce platform, offering a similar range of products and user-friendly shopping experience. </p>
-				<a href="https://6535f5a834f656678606da1d--gleeful-elf-885b11.netlify.app/"> <i class='bx bx-link-external'></i></a>
-			</div>
-		</div>
-		<div class="row">
-			<img src="project3.png" >
-			<div class="layer">
-				<h5>Specialized.com</h5>
-				<p>Our collaborative project was an innovative venture focused on developing an efficient and user-friendly bike seller website. </p>
-				<a href="https://busy-industry-7181.netlify.app/"> <i class='bx bx-link-external'></i></a>
-			</div>
-		</div>
+  <!-- Contact section -->
+  <section id="contact" class="contact">
 
-	
-	</div>
-
-</section>
-<section class="github" id="github">
-	<div class="main-text">
-		<h2><span>GitHub</span>Stats</h2>
-	</div>
-	<div class="github-content">
-		<div class="row">		
-				<img src="https://github-readme-stats.vercel.app/api/top-langs?username=surajdy&show_icons=true&locale=en&layout=compact&theme=darcula" alt="surajdy" />
-		</div>
-		<div class="row">
-			<img  src="https://github-readme-stats.vercel.app/api?username=surajdy&show_icons=true&theme=darcula" alt="surajdy" />
-	    </div>
-		<div class="row">
-			<img src="https://github-readme-streak-stats.herokuapp.com/?user=surajdy&theme=darcula" alt="surajdy" />
-	    </div>
-
-	
-	</div>
-
-</section>
-
-<!------------------Contact section------------>
-<section class="contact" id="contact">
-	<div class="contact-text">
+    <div class="contact-text">
 		<h2>Contact <span>Me!</span></h2>
 		<h4>I'm currently looking for new opportunities. </h4>
 		<p> Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
 		<div class="list">
-			<li><a href="#">+91 8408063095</a></li>
-			<li><a href="#">suraj.yengalwar111@gmail.com</a></li>
-			<li><a href="#">https://linkedin.com/in/surajyengalwar</a></li>
+			<li><a href="#" id="contact-phone">+91 8408063095</a></li>
+			<li><a href="#" id="contact-email">suraj.yengalwar111@gmail.com</a></li>
 		</div>
 
 		<div class="contact-icons">
-			<a href="#"><i class='bx bxl-facebook'></i></a>
-			<a href="#"><i class='bx bxl-twitter' ></i></a>
+			<a href="#" ><i class='bx bxl-facebook'></i></a>
+            <a href="https://linkedin.com/in/surajyengalwar" ><i class='bx bxl-linkedin'></i></a>
+			<a href="https://surajdy.resume"><i class='bx bxl-github' ></i></a>
 			<a href="#"><i class='bx bxl-instagram-alt' ></i></a>
 			<a href="#"><i class='bx bxl-youtube' ></i></a>
 		</div>
@@ -206,10 +186,12 @@
 		</form>
 
 	</div>
-</section>
+  </section>
 
-<!---------End Section---------->
-<section class="end">
+  <!-- Resume buttons -->
+
+  <!-- end -->
+  <section class="end">
 	<div class="last-text">
 		<p>Design By Suraj Yengalwar</p>
 	</div>
@@ -217,8 +199,8 @@
 		<a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
 	</div>
 </section>
-
+  <script>
+    // JavaScript code here, if needed
+  </script>
 </body>
-
 </html>
-<script ></script>
