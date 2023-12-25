@@ -425,10 +425,7 @@ form textarea {
 
 @media (max-width: 1000px) {
  
-    .navlist {
-      display: none;
-    }
-   
+  
     .logo {
     align-items: center;
   }
