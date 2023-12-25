@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;800;900&family=Poppins:wght@300;400;500;600&display=swap');
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+    list-style: none;
     scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
 }
@@ -50,7 +52,6 @@ body {
 .menu-btn{
     display: none;
 }
-
 .navlist a {
     color: var(--second-color);
     font-size: 17px;
@@ -74,7 +75,7 @@ section {
     background-position: center;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .home-text img{
     max-width: 300px;
@@ -205,7 +206,7 @@ section {
     transform: translateY(-8px);
     cursor: pointer;
 }
-.skills-card-img {
+.skills-card-icons {
     font-size: 24px;
     font-weight: 600;
     color: var(--text-color);
@@ -421,6 +422,7 @@ form textarea {
     transform: scale(1.1);
     cursor: pointer;
 }
+
 @media (max-width: 1000px) {
  
     .navlist {
@@ -454,7 +456,6 @@ form textarea {
     }
   }
   
-
 
 
 
