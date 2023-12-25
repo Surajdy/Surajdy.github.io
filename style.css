@@ -205,7 +205,7 @@ section {
     transform: translateY(-8px);
     cursor: pointer;
 }
-.skills-card-icons {
+.skills-card-img {
     font-size: 24px;
     font-weight: 600;
     color: var(--text-color);
