@@ -35,7 +35,7 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background: transparent;
     padding: 22px 15%;
 }
@@ -429,10 +429,47 @@ form textarea {
  
   
     .logo {
+        align-items: center;
+      }
+   /* nav  */
+  #nav-menu{
+    display: flex;
     align-items: center;
+    justify-content: space-between;
   }
-  
+   .menu-btn {
+    display: block;
+    z-index: 999;
+  }
+  .menu-btn i.active:before {
+    content: "\f00d";
+  }
+  #nav-menu .navlist {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    left: -100%;
+    top: 0;
+    background: #111;
+    text-align: center;
+    padding-top: 80px;
+    transition: all 0.3s ease;
+  }
+  #nav-menu .navlist.active {
+    left: 0;
+  }
+  #nav-menu .navlist li {
+    display: block;
+  }
+  #nav-menu .navlist li a {
+    display: inline-block;
+    margin: 20px 0;
+    font-size: 25px;
+  }
     /* Home section */
+
     #home {
         display: flex;
         flex-direction: column-reverse;
@@ -455,7 +492,6 @@ form textarea {
     }
   }
   
-
 
 
 
