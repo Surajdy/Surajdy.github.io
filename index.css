@@ -432,18 +432,17 @@ section .title::after {
 .layer .button{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  gap: 200px;
+  
 }
 .project-github-link ,.project-deployed-link {
   display: inline-block;
   padding: 12px;
+  text-align: center;
   background: transparent;
   border-radius: 50px;
   border: 2px solid var(--main-color);
   color: var(--main-color);
   font-size: 1rem;
-  
   font-weight: 500;
   transition: all .45s ease;
 }
