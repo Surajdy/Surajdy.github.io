@@ -379,6 +379,17 @@ section .title::after {
 /* project section styling */
 
 /* projects */
+
+.project-tech-stack i{
+margin-right: 5px;
+margin-left: 5px;
+  color: var(  --main-color);
+  align-items: center;
+}
+.project-tech-stack {
+  
+  align-items: center;
+}
 .project-container {
   
   display: flex;
@@ -391,7 +402,7 @@ section .title::after {
   align-items: center;
   display: flex;
   flex-direction: row;
-  
+
 }
 
 .project-card img {
