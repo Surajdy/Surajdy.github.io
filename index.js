@@ -22,16 +22,23 @@ $(document).ready(function () {
     $("html").css("scrollBehavior", "auto");
   });
 
-  $("#nav-menu .menu li a").click(function () {
-    // applying again smooth scroll on menu items click
-    $("html").css("scrollBehavior", "smooth");
-  });
 
   // toggle menu/nav-menu script
   $(".menu-btn").click(function () {
     $("#nav-menu .menu").toggleClass("active");
     $(".menu-btn i").toggleClass("active");
   });
+
+  // Add event listener to menu items
+  $("#nav-menu .menu li a").click(function () {
+   
+    $("#nav-menu .menu").removeClass("active");
+    $(".menu-btn i").removeClass("active");
+        // Applying smooth scroll on menu items click
+
+     $("html").css("scrollBehavior", "smooth");
+  });
+
 
   // typing text animation script
   var typed = new Typed(".typing", {
